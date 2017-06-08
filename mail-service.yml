@@ -15,8 +15,8 @@ spring:
     show-sql: true # Show or not log for each sql query
     hibernate:
       ddl-auto: update # Hibernate ddl auto (create, create-drop, update)     
-#      naming:
-#        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
+      naming:
+        implicit-strategy: org.hibernate.cfg.EJB3NamingStrategy
 
 #logging:
 #  level:
