@@ -15,8 +15,8 @@ spring:
     show-sql: true # Show or not log for each sql query
     hibernate:
       ddl-auto: update # Hibernate ddl auto (create, create-drop, update)     
-      naming:
-        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
+#      naming:
+#        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
 
 #logging:
 #  level:
@@ -27,7 +27,7 @@ spring:
  
  
 # Naming strategy
-#spring.jpa.hibernate.naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+spring.jpa.hibernate.naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
 
 # Use spring.jpa.properties.* for Hibernate native properties (the prefix is
 # stripped before adding them to the entity manager)
