@@ -5,7 +5,7 @@ eureka:
     prefer-ip-address:  true
   client:
     serviceUrl:
-      defaultZone: http://eureka-service:8761
+      defaultZone: http://eureka-service:8761, http://172.20.0.3:8761 , http://localhost:8761
     
 
 #access actuator endpoints without requiring authentication
