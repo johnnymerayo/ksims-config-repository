@@ -21,6 +21,6 @@ spring:
     base-url: http://zipkin-service:9411/
   rabbitmq:
     host: rabbit
-    username: rabbitmq
-    password: rabbitmq
+    username: ksims_rabbitmq
+    password: '{cipher}084bc27633e111321a8f2aa0e670ba040c0a07fd9b594bc03d93c67205831ef6'
    
