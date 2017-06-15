@@ -9,8 +9,14 @@ eureka:
       
     
 
-#access actuator endpoints without requiring authentication
+# access actuator endpoints without requiring authentication
 management:
   security:
     enabled: false
     
+
+# zipkin service name
+spring:    
+  zipkin:
+    service:
+      name: zipkin-service
