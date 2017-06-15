@@ -15,7 +15,10 @@ management:
     enabled: false
     
 
-# zipkin base url
+# zipkin base url and rabbit host
 spring:    
   zipkin:
-   base-url: http://zipkin-service:9411/
+    base-url: http://zipkin-service:9411/
+  rabbitmq:
+    host: rabbit
+   
