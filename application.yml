@@ -15,8 +15,7 @@ management:
     enabled: false
     
 
-# zipkin service name
+# zipkin base url
 spring:    
   zipkin:
-    service:
-      name: zipkin-service
+   base-url: http://zipkin-service:9411/
