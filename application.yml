@@ -1,11 +1,5 @@
 # Shared for all services
 
-#Default active profile
-spring:
-  profiles:
-    active:
-    - local
-
 # access actuator endpoints without requiring authentication
 management:
   security:
