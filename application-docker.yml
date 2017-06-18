@@ -1,0 +1,19 @@
+# Shared for all services
+
+eureka:
+  instance:
+    prefer-ip-address:  true
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-service:8761/eureka
+  
+
+# zipkin base url and rabbit host
+spring:    
+  zipkin:
+    base-url: http://zipkin-service:9411/
+  rabbitmq:
+    host: rabbit
+    username: ksims_rabbitmq
+    password: '{cipher}084bc27633e111321a8f2aa0e670ba040c0a07fd9b594bc03d93c67205831ef6'
+   
